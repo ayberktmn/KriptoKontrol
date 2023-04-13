@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980083498330",
+    "project_id": "kriptoapp-5821a",
+    "storage_bucket": "kriptoapp-5821a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980083498330:android:22033430da4d29efa7e763",
+        "android_client_info": {
+          "package_name": "com.ayberk.criptoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980083498330-j7lckrjlnpiu1qb3cgspv76lt0uhv5o4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQIkk0RfR4axha8EWB16G03RpcGmCL6rQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980083498330-j7lckrjlnpiu1qb3cgspv76lt0uhv5o4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

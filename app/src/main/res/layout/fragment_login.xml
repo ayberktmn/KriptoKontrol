@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginnn"
+    tools:context=".LoginFragment">
+
+
+    <TextView
+        android:id="@+id/txtkayit"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginEnd="77dp"
+        android:gravity="center"
+        android:text="Kayıt Ol"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="299dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="26dp"
+        android:hint="E-mail"
+        app:counterEnabled="true"
+        app:helperText="Zorunlu"
+        app:helperTextTextColor="#E30707"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/person">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextemail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:maxLength="21"
+            android:minHeight="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Textinput_1"
+        android:layout_width="299dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="30dp"
+        android:hint="Şifre"
+        app:counterEnabled="true"
+        app:counterMaxLength="20"
+        app:endIconMode="password_toggle"
+        app:helperText="Zorunlu"
+        app:helperTextTextColor="#E30707"
+        app:layout_constraintBottom_toTopOf="@+id/txtgiris"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3"
+        app:startIconDrawable="@drawable/lock">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextsifre"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:maxLength="21"
+            android:minHeight="48dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtgiris"
+        android:layout_width="233dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginEnd="76dp"
+        android:gravity="center"
+        android:text="Giriş Yap"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

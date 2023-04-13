@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/anasayfa"
+        android:icon="@drawable/home"
+        android:title="Anasayfa" />
+    <item
+        android:id="@+id/kullanici"
+        android:icon="@drawable/person"
+        android:title="Kullanıcı" />
+    <item
+        android:id="@+id/ayarlar"
+        android:icon="@drawable/ayarlar"
+        android:title="Ayarlar" />
+</menu>
